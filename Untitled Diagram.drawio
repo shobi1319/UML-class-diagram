@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T15:29:18.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="D4C3fNqw6EoP5Xsfcjt1" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-16T15:37:46.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="IKkWMF1-X7JhceiryroH" version="21.0.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="880" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -253,6 +253,52 @@
         </mxCell>
         <mxCell id="HBbwDd3GigiQVLhsnG5Q-81" value=" abstand(Punkt2Dimensional andererPunkt)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-74">
           <mxGeometry y="164" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-82" value="Rohrleitung" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="1350" width="300" height="202" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-83" value="double  laenge" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-82">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-85" value="Pipetype rohrtyp" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-82">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-87" value="double  auslastung" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-82">
+          <mxGeometry y="78" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-84" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-82">
+          <mxGeometry y="104" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-86" value="Rohrleitung(double laenge, Pipetype rohrtyp,&#xa; double volumenstrom)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-82">
+          <mxGeometry y="112" width="300" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-88" value="toString()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-82">
+          <mxGeometry y="160" width="300" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-91" value="Rohrtype" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="1370" width="300" height="202" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-92" value=" int innererDurchmesser" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-91">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-93" value="String Beschreibung" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-91">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-94" value="double  auslastung" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-91">
+          <mxGeometry y="78" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-95" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-91">
+          <mxGeometry y="104" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-96" value="Rohrleitung(double laenge, Pipetype rohrtyp,&#xa; double volumenstrom)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-91">
+          <mxGeometry y="112" width="300" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-97" value="toString()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-91">
+          <mxGeometry y="160" width="300" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
