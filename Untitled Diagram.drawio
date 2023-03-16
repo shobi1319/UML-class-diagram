@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T13:24:34.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="2NGv0oxkaOlaOZ5cEvk4" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-16T13:57:03.359Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="coghEwY8121I-FTyonAP" version="21.0.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="880" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -74,17 +74,6 @@
         <mxCell id="HBbwDd3GigiQVLhsnG5Q-34" value="toString()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
           <mxGeometry y="242" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--13" value="Professor" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="110" y="930" width="160" height="70" as="geometry">
-            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--14" value="Salary" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--15" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--17" value="KnotenunterRohrsystem(abstract)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="400" y="22" width="330" height="354" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
@@ -129,48 +118,69 @@
         <mxCell id="HBbwDd3GigiQVLhsnG5Q-28" value="setBearbeitet(boolean bearbeitet)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--17">
           <mxGeometry y="326" width="330" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="HBbwDd3GigiQVLhsnG5Q-0" value="Student" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="300" y="890" width="160" height="138" as="geometry">
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-0" value="Knotenhaus" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="720" width="410" height="280" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HBbwDd3GigiQVLhsnG5Q-1" value="Student Number" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-0">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-1" value="KnotenunterRohrsystem nachfolger" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-0">
+          <mxGeometry y="26" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HBbwDd3GigiQVLhsnG5Q-2" value="Average Mark" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-0">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-2" value="double gegebenerVolumenestrom" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-0">
+          <mxGeometry y="52" width="410" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HBbwDd3GigiQVLhsnG5Q-3" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-0">
-          <mxGeometry y="78" width="160" height="8" as="geometry" />
+          <mxGeometry y="72" width="410" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="HBbwDd3GigiQVLhsnG5Q-4" value="Is Eligible To Enroll" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-0">
-          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-37" value=" Knotenhaus(String id, Point2D position,&#xa; KnotenunterRohrsystem nachfolger, double gegebenerVolumenestrom)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-0">
+          <mxGeometry y="80" width="410" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HBbwDd3GigiQVLhsnG5Q-5" value="Get Seminars Taken" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-0">
-          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-54" value=" getVolumenstrom()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-0">
+          <mxGeometry y="120" width="410" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HBbwDd3GigiQVLhsnG5Q-6" value="Student" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="870" width="160" height="138" as="geometry">
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-56" value="&amp;nbsp; berechneAbstandZuNachfolger()" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-0">
+          <mxGeometry y="140" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-53" value=" hatNachfolger()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-0">
+          <mxGeometry y="166" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-59" value="setVolumenstrom(double neuerVolumenstrom)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-0">
+          <mxGeometry y="192" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-58" value="getNachfolger()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-0">
+          <mxGeometry y="218" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-60" value="toString()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-0">
+          <mxGeometry y="244" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-6" value="Punkt2Dimensional" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="750" width="300" height="220" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HBbwDd3GigiQVLhsnG5Q-7" value="Student Number" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-6">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-7" value="double x" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-6">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HBbwDd3GigiQVLhsnG5Q-8" value="Average Mark" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-6">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-8" value="double y" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-6">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HBbwDd3GigiQVLhsnG5Q-9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-6">
-          <mxGeometry y="78" width="160" height="8" as="geometry" />
+          <mxGeometry y="78" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="HBbwDd3GigiQVLhsnG5Q-10" value="Is Eligible To Enroll" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-6">
-          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-10" value="Punkt2Dimensional(double x, double y)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-6">
+          <mxGeometry y="86" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HBbwDd3GigiQVLhsnG5Q-11" value="Get Seminars Taken" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-6">
-          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-11" value="double getX()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-6">
+          <mxGeometry y="112" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-61" value="double getY()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-6">
+          <mxGeometry y="138" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-62" value=" abstand(Punkt2Dimensional andererPunkt)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-6">
+          <mxGeometry y="164" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HBbwDd3GigiQVLhsnG5Q-12" value="Student" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="650" y="870" width="160" height="138" as="geometry">
+          <mxGeometry x="60" y="1754" width="160" height="138" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -188,6 +198,29 @@
         </mxCell>
         <mxCell id="HBbwDd3GigiQVLhsnG5Q-17" value="Get Seminars Taken" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-12">
           <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-63" value="Rohrsystem" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="1030" width="300" height="220" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-64" value="Knotenhaus[] haushalte" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-66" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
+          <mxGeometry y="52" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-67" value="Rohrsystem(Knotenhaus[] haushalte)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
+          <mxGeometry y="60" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-68" value="double getX()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
+          <mxGeometry y="86" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-69" value="double getY()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
+          <mxGeometry y="112" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-70" value=" abstand(Punkt2Dimensional andererPunkt)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
+          <mxGeometry y="138" width="300" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
