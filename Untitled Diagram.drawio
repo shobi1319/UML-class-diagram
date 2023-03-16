@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T13:57:03.359Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="coghEwY8121I-FTyonAP" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-16T15:29:18.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="D4C3fNqw6EoP5Xsfcjt1" version="21.0.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="880" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -200,7 +200,7 @@
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HBbwDd3GigiQVLhsnG5Q-63" value="Rohrsystem" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="1030" width="300" height="220" as="geometry">
+          <mxGeometry x="440" y="1030" width="300" height="240" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -213,14 +213,46 @@
         <mxCell id="HBbwDd3GigiQVLhsnG5Q-67" value="Rohrsystem(Knotenhaus[] haushalte)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
           <mxGeometry y="60" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HBbwDd3GigiQVLhsnG5Q-68" value="double getX()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-68" value="berechneVolumenstroeme()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
           <mxGeometry y="86" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HBbwDd3GigiQVLhsnG5Q-69" value="double getY()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-69" value="bemesse(Pipetype[] rohrtypAuswahl)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
           <mxGeometry y="112" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HBbwDd3GigiQVLhsnG5Q-70" value=" abstand(Punkt2Dimensional andererPunkt)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-70" value="erstelleLeitung(Pipetype[] rohrtypAuswahl,&#xa; double benoetigteLaenge, double volumenstrom)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
+          <mxGeometry y="138" width="300" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-71" value="resetBearbeitetStatus()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
+          <mxGeometry y="180" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-72" value=" machenZusammenfassungDerVolumenströme()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-63">
+          <mxGeometry y="206" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-74" value="Punkt2Dimensional" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="55" y="1070" width="300" height="220" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-75" value="double x" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-74">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-76" value="double y" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-74">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-77" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-74">
+          <mxGeometry y="78" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-78" value="Punkt2Dimensional(double x, double y)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-74">
+          <mxGeometry y="86" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-79" value="double getX()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-74">
+          <mxGeometry y="112" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-80" value="double getY()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-74">
           <mxGeometry y="138" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HBbwDd3GigiQVLhsnG5Q-81" value=" abstand(Punkt2Dimensional andererPunkt)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HBbwDd3GigiQVLhsnG5Q-74">
+          <mxGeometry y="164" width="300" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
