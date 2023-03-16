@@ -1,16 +1,127 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T19:56:06.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="wSA4chixJ3w1rk5ZUzl_" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-16T19:59:39.981Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ycyq8dyhW8zyZo0pZonn" version="21.0.6" type="github">
   <diagram name="Page-1" id="4NM99ZyFPqKUCob5nruf">
     <mxGraphModel dx="880" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zz_cG9ig-DloKgr5GdJk-34" value="Erweitert" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zz_cG9ig-DloKgr5GdJk-86">
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-1" value="KnotenKontrollwelle" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1030" width="520" height="280" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-2" value="+ KnotenunterRohrsystem nachfolger" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-1">
+          <mxGeometry y="26" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-3" value="- double berechneterVolumenstrom" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-1">
+          <mxGeometry y="52" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-1">
+          <mxGeometry y="78" width="520" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-5" value="+ KnotenKontrollwelle(String id, Point2D position,KnotenunterRohrsystem nachfolger)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-1">
+          <mxGeometry y="86" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-6" value="+ hatNachfolger()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-1">
+          <mxGeometry y="112" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-7" value="+ getVolumenstrom()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-1">
+          <mxGeometry y="138" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-8" value="+ berechneAbstandZuNachfolger()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-1">
+          <mxGeometry y="164" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-9" value="+ getNachfolger()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-1">
+          <mxGeometry y="190" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-10" value="+ setVolumenstrom(double neuerVolumenstrom)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-1">
+          <mxGeometry y="216" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-11" value="+ toString()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-1">
+          <mxGeometry y="242" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-12" value="Knotenhaus" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1340" width="400" height="280" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-13" value="+KnotenunterRohrsystem nachfolger" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-12">
+          <mxGeometry y="26" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-14" value="- double gegebenerVolumenestrom" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-12">
+          <mxGeometry y="52" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-15" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-12">
+          <mxGeometry y="72" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-16" value="+ Knotenhaus(String id, Point2D position,&#xa; KnotenunterRohrsystem nachfolger, double gegebenerVolumenestrom)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-12">
+          <mxGeometry y="80" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-17" value="+ getVolumenstrom()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-12">
+          <mxGeometry y="120" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-18" value="&amp;nbsp;+ berechneAbstandZuNachfolger()" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-12">
+          <mxGeometry y="140" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-19" value="+ hatNachfolger()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-12">
+          <mxGeometry y="166" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-20" value="+ setVolumenstrom(double neuerVolumenstrom)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-12">
+          <mxGeometry y="192" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-21" value="+ getNachfolger()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-12">
+          <mxGeometry y="218" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-22" value="+ toString()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-12">
+          <mxGeometry y="244" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-23" value="Rohrsystem" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="1630" width="300" height="240" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-24" value="- Knotenhaus[] haushalte" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-23">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-25" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-23">
+          <mxGeometry y="52" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-26" value="+ Rohrsystem(Knotenhaus[] haushalte)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-23">
+          <mxGeometry y="60" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-27" value="+ berechneVolumenstroeme()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-23">
+          <mxGeometry y="86" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-28" value="+ bemesse(Rohrtype[] rohrtypAuswahl)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-23">
+          <mxGeometry y="112" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-29" value="- erstelleLeitung(Rohrtype[] rohrtypAuswahl,&#xa; double benoetigteLaenge, double volumenstrom)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-23">
+          <mxGeometry y="138" width="300" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-30" value="+ resetBearbeitetStatus()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-23">
+          <mxGeometry y="180" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-31" value="+ machenZusammenfassungDerVolumenströme()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-23">
+          <mxGeometry y="206" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-33" value="Erweitert" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zz_cG9ig-DloKgr5GdJk-86" target="zz_cG9ig-DloKgr5GdJk-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="586" y="1555" as="sourcePoint" />
+            <mxPoint x="491" y="1554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-34" value="Erweitert" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zz_cG9ig-DloKgr5GdJk-86" target="zz_cG9ig-DloKgr5GdJk-12">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="881.0000000000002" y="1540" as="sourcePoint" />
-            <mxPoint x="785" y="1360.8510638297873" as="targetPoint" />
+            <mxPoint x="701" y="1930" as="targetPoint" />
             <Array as="points">
               <mxPoint x="820" y="1340" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-35" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zz_cG9ig-DloKgr5GdJk-27" target="zz_cG9ig-DloKgr5GdJk-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="461" y="2359" as="sourcePoint" />
+            <mxPoint x="585" y="1620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zz_cG9ig-DloKgr5GdJk-36" value="Punkt2Dimensional" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
@@ -99,6 +210,41 @@
         <mxCell id="zz_cG9ig-DloKgr5GdJk-61" value="+ HolenSiesichMaxFlow()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-54">
           <mxGeometry y="180" width="300" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-62" value="KnotenKanal" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="600" width="290" height="272" as="geometry">
+            <mxRectangle x="10" y="20" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-63" value="- berechneterVolumenstrom" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-62">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-64" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-62">
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-65" value="+ KnotenKanal(String id, Point2D position)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-62">
+          <mxGeometry y="60" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-66" value="+ hatNachfolger()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-62">
+          <mxGeometry y="86" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-67" value="+ getVolumenstrom()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-62">
+          <mxGeometry y="112" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-68" value="+ berechneAbstandZuNachfolger()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-62">
+          <mxGeometry y="138" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-69" value="&amp;nbsp;+ berechneAbstandZuNachfolger()" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-62">
+          <mxGeometry y="164" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-70" value="+ setVolumenstrom(double neuerVolumenstrom)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-62">
+          <mxGeometry y="190" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-71" value="+ getNachfolger()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-62">
+          <mxGeometry y="220" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-72" value="+ toString()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-62">
+          <mxGeometry y="246" width="290" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="zz_cG9ig-DloKgr5GdJk-73" value="KnotenunterRohrsystem(abstract)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="536" y="620" width="330" height="354" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
@@ -142,6 +288,12 @@
         </mxCell>
         <mxCell id="zz_cG9ig-DloKgr5GdJk-86" value="+ setBearbeitet(boolean bearbeitet)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zz_cG9ig-DloKgr5GdJk-73">
           <mxGeometry y="326" width="330" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="zz_cG9ig-DloKgr5GdJk-87" value="Erweitert" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zz_cG9ig-DloKgr5GdJk-81" target="zz_cG9ig-DloKgr5GdJk-69">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="471" y="870" as="sourcePoint" />
+            <mxPoint x="631" y="870" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
